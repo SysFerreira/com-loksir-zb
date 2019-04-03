@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.loksir.zb" version="1.0.23"
+ xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+ xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>zb</name>
+  <js-module name="zb" src="www/zb.js">
+  <clobbers target="cordova.plugins.zb" />
+  </js-module>
+  <platform name="android">
+  
+  <config-file parent="/*" target="res/xml/config.xml">
+  <feature name="zb">
+	<param name="android-package" value="com.loksir.zb.zb" />
+  </feature>
+  </config-file>
+  
+  <config-file parent="/*" target="AndroidManifest.xml">
+  </config-file>
+  
+  <source-file src="src/android/zb.java" target-dir="src/com/loksir/zb/zb" />
+  <source-file src="src/android/BarcodeDelegate.java" target-dir="src/com/loksir/zb/zb" />
+  
+  <resource-file src="foo/API3_LIB.aar"	target="libs/API3_LIB.aar" />
+  <resource-file src="foo/BARCODE2410_LIB.aar"	target="libs/BARCODE2410_LIB.aar" />
+  
+  <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+  
+</platform>
+</plugin>

@@ -1,0 +1,45 @@
+{
+  "_from": "com.loksir.zb",
+  "_id": "com.loksir.zb@1.0.23",
+  "_inBundle": false,
+  "_integrity": "sha512-faeOHxJW8mKTJ0lRkd7fbCCpTDg7F7y8Gvmj2MEeotu8rBM9f4XgDSeZCiLQZNbceGQUS6+xU9wv2857nQxz3Q==",
+  "_location": "/com.loksir.zb",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "com.loksir.zb",
+    "name": "com.loksir.zb",
+    "escapedName": "com.loksir.zb",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/com.loksir.zb/-/com.loksir.zb-1.0.23.tgz",
+  "_shasum": "2b1071ea6595bd78cdb34718e2c2cdd46d7ffdc2",
+  "_spec": "com.loksir.zb",
+  "_where": "/Users/sandraferreira/Downloads",
+  "author": {
+    "name": "Norman Lok"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.loksir.zb",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "zebra RFID 8500",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "com.loksir.zb",
+  "version": "1.0.23"
+}
